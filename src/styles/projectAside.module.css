@@ -41,6 +41,30 @@
     padding-bottom: 50px;
 }
 
+/* Project Section Instructions */
+
+.asideInstructions {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF59BD;
+    outline: black solid 4px;
+    padding: 20px 10px 20px 10px;
+}
+
+.asideInstructions h2 {
+    font-size: calc(1.6vw + 1.6vh);
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+}
+
+.asideInstructions p {
+    text-align: center;
+    font-size: calc(.9vw + 0.9vh);
+    color: white;
+    margin: 2px;
+}
+
 /* Button */
 
 .projectButton {

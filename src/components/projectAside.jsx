@@ -56,6 +56,11 @@ export default function ProjectAside({ projectData, handleItemPull }) {
                 <Link to={"/Santy-Website/"}><Icons.ArrowLeft size={50} /></Link>
                 <h2>Projects</h2>
             </div>
+            <div className={styles.asideInstructions}>
+                <h2><Icons.HandIndex /> Instructions</h2>
+                <p>Drag an item to the list to the right to select it</p>
+                <p>Drag up and down to scroll through the list</p>
+            </div>
             <div className={styles.buttonContainer}>
                 {
                     projectData.map((project, index) => (
