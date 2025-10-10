@@ -13,8 +13,8 @@ function Index() {
       exit={{ opacity: 0 }}>
       <aside className={styles.mainAside}>
         <h1>Hi!</h1>
-        <p>My name is Santiago Ramírez Enríquez, a junior software engineer and aspirant video game programmer.
-          I'm passionate for programming fun and interesting experiences that people can enjoy.</p>
+        <p>My name is Santiago Ramírez Enríquez, a junior software engineer.
+          I'm passionate for programming both websites and games that people can enjoy interacting with.</p>
         <p className={styles.disclaimer}>Disclaimer: Site is best experienced horizontally</p>
         <div className={styles.buttonContainer}>
           <CustomMotionComponent
